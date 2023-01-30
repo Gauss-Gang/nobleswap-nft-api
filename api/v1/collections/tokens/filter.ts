@@ -5,7 +5,7 @@ import { CONTENT_DELIVERY_NETWORK_URI, NETWORK } from "../../../../utils";
 import { getModel } from "../../../../utils/mongo";
 import { Attribute, Collection, Token } from "../../../../utils/types";
 import forEach from "lodash/forEach";
-import paginatePlugin from "mongoose-paginate-v2";
+import paginate from "mongoose-paginate-v2";
 
 export default async (req: VercelRequest, res: VercelResponse): Promise<VercelResponse | void> => {
   if (req.method?.toUpperCase() === "OPTIONS") {
