@@ -1,10 +1,10 @@
 {
-  "name": "pancake-nft-api",
+  "name": "nobleswap-nft-api",
   "version": "1.0.0",
-  "description": "Serverless API implementation for PancakeSwap NFT Marketplace contract",
+  "description": "Serverless API implementation for NobleSwap NFT Marketplace contract",
   "main": "api/version.ts",
-  "repository": "git@github.com:pancakeswap/pancake-nft-api.git",
-  "author": "PancakeSwap",
+  "repository": "git@github.com/Gauss-Gang/nobleswap-nft-api",
+  "author": "NobleSwap",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "format:check": "prettier --check '*/**/*.{js,ts}'",
