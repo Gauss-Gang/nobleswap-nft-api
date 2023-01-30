@@ -1,6 +1,6 @@
-# PancakeSwap NFT Marketplace API
+# NobleSwap NFT Marketplace API
 
-Serverless API implementation for PancakeSwap NFT Marketplace
+Serverless API implementation for NobleSwap NFT Marketplace
 
 # Dependencies
 
