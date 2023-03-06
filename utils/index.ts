@@ -4,7 +4,7 @@ dotenv.config();
 
 export const NETWORK = process.env.NETWORK ?? "mainnet";
 export const CONTENT_DELIVERY_NETWORK_URI =
-  process.env.CONTENT_DELIVERY_NETWORK_URI ?? "https://static-nft.pancakeswap.com";
+  process.env.CONTENT_DELIVERY_NETWORK_URI ?? "https://nft.nobleswap.io";
 
 export const getTokenURI = (tokenURI: string): string => {
   if (tokenURI && tokenURI.startsWith("ipfs://")) {
