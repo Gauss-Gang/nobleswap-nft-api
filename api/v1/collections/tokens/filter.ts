@@ -1,5 +1,5 @@
-import { VercelRequest, VercelResponse } from "@vercel/node";
-import { getAddress, isAddress } from "ethers/lib/utils";
+import { VercelRequest, VercelResponse } from "@vercel/node/dist/index";
+import { getAddress, isAddress } from "ethers/lib/utils.js";
 import { paramCase } from "param-case";
 import { CONTENT_DELIVERY_NETWORK_URI, NETWORK } from "../../../../utils";
 import { getModel } from "../../../../utils/mongo";

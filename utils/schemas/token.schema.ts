@@ -1,5 +1,5 @@
 import { Schema } from "mongoose";
-import paginatePlugin from "mongoose-paginate-v2";
+import paginatePlugin  from "mongoose-paginate-v2";
 
 const tokenSchema: Schema = new Schema(
   {

@@ -1,5 +1,5 @@
-import { VercelRequest, VercelResponse } from "@vercel/node";
-import { getAddress, isAddress } from "ethers/lib/utils";
+import { VercelRequest, VercelResponse } from "@vercel/node/dist/index";
+import { getAddress, isAddress } from "ethers/lib/utils.js";
 import { getCDN } from "../../../utils";
 import { getModel } from "../../../utils/mongo";
 import { Attribute, Collection } from "../../../utils/types";

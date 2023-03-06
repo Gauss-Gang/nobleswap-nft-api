@@ -1,6 +1,6 @@
-import { Contract } from "@ethersproject/contracts";
-import { VercelRequest, VercelResponse } from "@vercel/node";
-import { getAddress, isAddress } from "ethers/lib/utils";
+import { Contract } from "@ethersproject/contracts/src.ts";
+import { VercelRequest, VercelResponse } from "@vercel/node/dist/index";
+import { getAddress, isAddress } from "ethers/lib/utils.js";
 import { Attribute, Collection, Token } from "../../../../utils/types";
 import { getModel } from "../../../../utils/mongo";
 import { CONTENT_DELIVERY_NETWORK_URI, getTokenURI, NETWORK } from "../../../../utils";

@@ -1,4 +1,4 @@
-import { VercelRequest, VercelResponse } from "@vercel/node";
+import { VercelRequest, VercelResponse } from "@vercel/node/dist/index";
 import { version } from "../package.json";
 
 export default (req: VercelRequest, res: VercelResponse): void => {
