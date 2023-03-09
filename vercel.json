@@ -1,5 +1,5 @@
 {
-  "buildCommand": "vercel dev"
+  "buildCommand": "vercel dev",
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
