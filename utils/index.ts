@@ -1,5 +1,5 @@
 import { getAddress } from "ethers/lib/utils.js";
-import dotenv from "dotenv/types";
+import dotenv from "dotenv";
 dotenv.config();
 
 export const NETWORK = process.env.NETWORK ?? "testnet";
