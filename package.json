@@ -10,7 +10,8 @@
     "format:check": "prettier --check '*/**/*.{js,ts}'",
     "format:write": "prettier --write '*/**/*.{js,ts}'",
     "lint": "eslint '*/**/*.{js,ts}'",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build": "vercel dev"
   },
   "dependencies": {
     "@types/lodash": "^4.14.173",
