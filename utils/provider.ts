@@ -1,4 +1,4 @@
-import { providers } from "ethers/lib/ethers.js";
+import { providers } from "ethers";
 import sample from "lodash/sample";
 import { NETWORK } from ".";
 
