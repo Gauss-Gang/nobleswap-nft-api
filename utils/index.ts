@@ -1,6 +1,6 @@
-import { getAddress } from "ethers/lib/utils.js";
+import { getAddress } from "ethers/lib/utils";
 import dotenv from "dotenv";
-dotenv.config();
+require("dotenv").config();
 
 export const NETWORK = process.env.NETWORK ?? "testnet";
 export const CONTENT_DELIVERY_NETWORK_URI =

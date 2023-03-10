@@ -13,7 +13,7 @@ let connection: Connection | null = null;
 export const getConnection = async (): Promise<Connection> => {
   if (connection === null) {
     /* istanbul ignore next */
-    const uri = process.env.MONGO_URI ?? "mongodb://localhost:27017/marketplace";
+    const uri = process.env.MONGO_URI ?? "mongodb+srv://vercel-admin-user:avmpeJhhS3H2QBiT@noble-cluster-gil.fvqa2dn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
     connection = mongoose.createConnection(uri, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
